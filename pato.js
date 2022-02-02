@@ -1425,7 +1425,7 @@ case prefix+ 'avatar':
 		case prefix+ 'waifu':
 			waifud = await axios.get('https://nekos.life/api/v2/img/waifu')
 			nyed = await getBuffer(waifud.data.url)
-			turbo.sendMessage(from, nyed, image, { caption: '𝘼𝙓𝙀𝙇 𝘼𝘾™✓', quoted: mek })
+			turbo.sendMessage(from, nyed, image, { caption: '𝑱𝑬𝑰𝑺𝑶𝑵', quoted: mek })
 			.catch(err => {
 				return('Ocurrió un error, intentalo de nuevo...')
 			})
@@ -1436,7 +1436,7 @@ if(!isUrl(args[0]) && !args[0].includes('mediafire')) return reply('Link invalid
 reply('*Espera un momento...*')
 teks = args.join(' ')
 const resm = await turbomfire(teks)
-result = `  「  𝘼𝙓𝙀𝙇 𝘼𝘾™✓  」
+result = `  「  𝑱𝑬𝑰𝑺𝑶𝑵  」
 *Nombre :* ${resm[0].nombre}
 *Tamaño :* ${resm[0].size}
 *Link :* ${resm[0].link}
@@ -1531,7 +1531,7 @@ case prefix+ 'pinterest':
 			sasu = JSON.parse(JSON.stringify(anu));
 			ke =  sasu[Math.floor(Math.random() * sasu.length)];
 			nye = await getBuffer(ke)
-			turbo.sendMessage(from, nye, image, { caption: '𝘼𝙓𝙀𝙇 𝘼𝘾™✓', quoted: mek })
+			turbo.sendMessage(from, nye, image, { caption: '𝑱𝑬𝑰𝑺𝑶𝑵', quoted: mek })
 			.catch(err => {
 				return('y el nombre?')
 			})
@@ -1546,7 +1546,7 @@ case prefix+ 'pinterest':
             imageToBase64(pjr)
             .then((response) => {
             media =  Buffer.from(response, 'base64');
-            turbo.sendMessage(from,media,image,{quoted:mek,caption:'𝘼𝙓𝙀𝙇 𝘼𝘾™✓'})
+            turbo.sendMessage(from,media,image,{quoted:mek,caption:'𝑱𝑬𝑰𝑺𝑶𝑵'})
             }
             )
             .catch((error) => {
