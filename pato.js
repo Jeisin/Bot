@@ -70,14 +70,14 @@ const
 		processTime,
 	} = require("@adiwajshing/baileys")
 //=================================================//
-prefix = '/'
+prefix = '#'
 hit_today = []
 blocked = []
 banChats = false
 offline = false
 targetpc = '51987654321'
 owner = '51987654321'
-fake = '𝘼𝙓𝙀𝙇 𝘼𝘾™✓'
+fake = '𝑱𝑬𝑰𝑺𝑶𝑵'
 numbernye = '0'
 waktu = '-'
 alasan = '-'
@@ -88,7 +88,7 @@ async function starts() {
 	const turbo = new WAConnection()
         turbo.logger.level = 'warn'
         turbo.version = [2, 2119, 6]
-	console.log('>', '[',color('INFO','blue'),']','Gracias por usar AXEL AC BOT...')
+	console.log('>', '[',color('INFO','blue'),']','Gracias por usar  𝑱𝑬𝑰𝑺𝑶𝑵 BOT...')
 	turbo.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color(' Escanea el código qr'))
 	})
@@ -129,11 +129,10 @@ turbo.on('CB:action,,call', async json => {
 			teks += `║➣ ${mdata.subject}\n`			
 			teks += `╰─────••◈••────╯\n`
 		    teks += `Hola 👋🏻 Espero que se sienta como en casa       🍿🍭🍫🍬🍡🍧\n`
-			teks += `Disfruta del grupo 🥳 se sociable y aporta 🤗, Quizás encuentres el amor      🥺 👉🏻👈🏻 💞♥️💞\n`
+			teks += `Disfruta del grupo 🥳 se sociable y aporta 🤗, Quizás encuentres el amor, o quizás no, pero si te garantizo mucha diversión. 🥺 👉🏻👈🏻 💞♥️💞\n`
             teks += `Lee las reglas por favor, para evitar malos entendidos 👻🔪🔪\n`
 			teks += `╔═══•ೋೋ•═══╗\n`
-            teks += `➣ 𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 😎 úsalo en tus grupos👇🏻https://youtube.com/channel/UCaUVzmEx_dGgEmCFqtw-EDQ`
-            teks += `╚═[ 𝘼𝙓𝙀𝙇 𝘼𝘾™✓]═╝\n`
+            teks += `╚═[𝑱𝑬𝑰𝑺𝑶𝑵]═╝\n`
 			let buff = await getBuffer(ppimg)
 		    turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -148,9 +147,8 @@ turbo.on('CB:action,,call', async json => {
        　 teks += `No vuelvas por favor 😹\n`
 　        teks += ` .　ﾟ • ﾟ   •　。ﾟ    • ඞ   。　ﾟ .\n`
             teks += ` @${num.split('@')[0]} 🐈💨\n`
-            teks += `╔═══•ೋೋ•═══╗\n`
-      　  teks += `𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 😎 úsalo en tus grupos👇🏻 https://youtube.com/channel/UCaUVzmEx_dGgEmCFqtw-EDQ`
-            teks += `╚═[-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ ]═╝\n`
+            teks += `╔═══•ೋೋ•═══╗\n'
+            teks += `╚═[ 𝑱𝑬𝑰𝑺𝑶𝑵 ]═╝\n`
 			let buff = await getBuffer(ppimg)
 			turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'promote') {
@@ -220,7 +218,7 @@ turbo.on('chat-update', async (mek) => {
 		const q = args.join(' ')
 		//const meNumber = turbo.user.jid.split("@")[0]
 		const botNumber = turbo.user.jid
-		const ownerNumber = ['573212523313@s.whatsapp.net'] //turbo owner
+		const ownerNumber = ['573152139466@s.whatsapp.net'] //turbo owner
 //SETTING WeA
 		const isGroup = from.endsWith('@g.us')
 		const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -1001,17 +999,13 @@ switch (command) {
 
 ℎ𝑜𝑙𝑎  ${pushname} 𝐵𝑖𝑒𝑛𝑣𝑒𝑛𝑖𝑑𝑜 𝑎𝑙 𝑚𝑒𝑛𝑢 "𝑤𝑒𝑙𝑐𝑜𝑚𝑒 𝑚𝑒𝑛𝑢"
 ════════ ✥.❖.✥ ════════
-𝘼𝙓𝙀𝙇 𝘼𝘾™✓: https://youtube.com/channel/UCaUVzmEx_dGgEmCFqtw-EDQ
+𝘼𝙓𝙀𝙇 𝘼𝘾™✓: https://wa.me/+573152139466
 ════════ ✥.❖.✥ ════════
 
 𝐁𝐎𝐓 𝑖𝑛𝑓
-𒀸ꦼꦴ⇢${prefix}𝐜𝐚𝐧𝐚𝐥
-𒀸ꦼꦴ⇢${prefix}𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 𒀸ꦼꦴ⇢${prefix}𝐫𝐞𝐠𝐥𝐚𝐬
-𒀸ꦼꦴ⇢${prefix}𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐫
-𒀸ꦼꦴ⇢${prefix}𝐛𝐮𝐠
-
-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬
+-----------------------
+𝑱𝑬𝑰𝑺𝑶𝑵 𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬
 𒀸ꦼꦴ⇢${prefix}𝐬𝐭𝐢𝐜𝐤𝐞𝐫
 𒀸ꦼꦴ⇢${prefix}𝐬𝐰𝐦
 𒀸ꦼꦴ⇢${prefix}𝐚𝐭𝐭𝐩
@@ -1023,8 +1017,8 @@ switch (command) {
 𒀸ꦼꦴ⇢${prefix}𝐬𝐥𝐨𝐰 
 𒀸ꦼꦴ⇢${prefix}𝐟𝐚𝐬𝐭
 𒀸ꦼꦴ⇢${prefix}𝐭𝐨𝐦𝐩𝟑
-
-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 𝐌𝐞𝐧𝐜𝐢𝐨𝐧𝐞𝐬
+-----------------
+𝑱𝑬𝑰𝑺𝑶𝑵 𝐌𝐞𝐧𝐜𝐢𝐨𝐧𝐞𝐬
 𒀸ꦼꦴ⇢${prefix}𝐡𝐢𝐝𝐞𝐭𝐚𝐠
 𒀸ꦼꦴ⇢${prefix}𝐬𝐭𝐢𝐜𝐤𝐭𝐚𝐠
 𒀸ꦼꦴ⇢${prefix}𝐠𝐢𝐟𝐭𝐚𝐠
@@ -1033,15 +1027,15 @@ switch (command) {
 𒀸ꦼꦴ⇢${prefix}𝐭𝐨𝐭𝐚𝐠
 𒀸ꦼꦴ⇢${prefix}𝐢𝐧𝐟𝐨𝐚𝐥𝐥
 𒀸ꦼꦴ⇢${prefix}𝐭𝐚𝐠𝐚𝐥𝐥
-
-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬
+-------------------
+𝑱𝑬𝑰𝑺𝑶𝑵 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬
 𒀸ꦼꦴ⇢${prefix}𝐩𝐥𝐚𝐲
 𒀸ꦼꦴ⇢${prefix}𝐲𝐭𝐦𝐩𝟑
 𒀸ꦼꦴ⇢${prefix}𝐲𝐭𝐦𝐩𝟒
 𒀸ꦼꦴ⇢${prefix}𝐭𝐰𝐢𝐭𝐭𝐞𝐫
 𒀸ꦼꦴ⇢${prefix}𝐟𝐛
-
-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 𝐁𝐮𝐬𝐪𝐮𝐞𝐝𝐚𝐬
+-------------------
+𝑱𝑬𝑰𝑺𝑶𝑵 𝐁𝐮𝐬𝐪𝐮𝐞𝐝𝐚𝐬
 𒀸ꦼꦴ⇢${prefix}𝐢𝐠𝐬𝐭𝐚𝐥𝐤
 𒀸ꦼꦴ⇢${prefix}𝐭𝐢𝐤𝐭𝐨𝐤𝐬𝐭𝐚𝐥𝐤
 𒀸ꦼꦴ⇢${prefix}𝐯𝐢𝐝𝐞𝐨
@@ -1049,8 +1043,8 @@ switch (command) {
 𒀸ꦼꦴ⇢${prefix}𝐠𝐨𝐨𝐠𝐥𝐞
 𒀸ꦼꦴ⇢${prefix}𝐛𝐫𝐚𝐢𝐧𝐥𝐲
 𒀸ꦼꦴ⇢${prefix}𝐭𝐰𝐢𝐜𝐡
-
-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 𝐈𝐦𝐚𝐠𝐞𝐧𝐞𝐬
+-------------------
+𝑱𝑬𝑰𝑺𝑶𝑵 𝐈𝐦𝐚𝐠𝐞𝐧𝐞𝐬
 𒀸ꦼꦴ⇢${prefix}𝐚𝐯𝐚𝐭𝐚𝐫
 𒀸ꦼꦴ⇢${prefix} 𝐥𝐨𝐥𝐢
 𒀸ꦼꦴ⇢${prefix}𝐰𝐚𝐢𝐟𝐮
@@ -1062,8 +1056,8 @@ switch (command) {
 𒀸ꦼꦴ⇢${prefix}𝐦𝐮𝐣𝐞𝐫
 𒀸ꦼꦴ⇢${prefix}𝐡𝐨𝐦𝐛𝐫𝐞
 𒀸ꦼꦴ⇢${prefix}𝐜𝐲𝐛𝐞𝐫𝐩𝐮𝐧𝐤
-
-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 𝐆𝐫𝐮𝐩𝐨𝐬
+------------------
+𝑱𝑬𝑰𝑺𝑶𝑵 𝐆𝐫𝐮𝐩𝐨𝐬
 𒀸ꦼꦴ⇢${prefix}𝐥𝐞𝐯𝐞𝐥
 𒀸ꦼꦴ⇢${prefix}𝐩𝐫𝐨𝐦𝐨𝐭𝐞 @
 𒀸ꦼꦴ⇢${prefix}𝐝𝐞𝐦𝐨𝐭𝐞 @
@@ -1082,8 +1076,8 @@ switch (command) {
 𒀸ꦼꦴ⇢${prefix}𝐫𝐚𝐧𝐤𝐠𝐚𝐲
 𒀸ꦼꦴ⇢${prefix}𝐫𝐚𝐧𝐤𝐥𝐢𝐧𝐝𝐨
 𒀸ꦼꦴ⇢${prefix}𝐚𝐟𝐤
-
-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 𝐎𝐭𝐫𝐨𝐬
+--------------------
+𝑱𝑬𝑰𝑺𝑶𝑵 𝐎𝐭𝐫𝐨𝐬
 𒀸ꦼꦴ⇢${prefix}𝐜𝐨𝐯𝐢𝐝𝐰𝐨𝐫𝐥𝐝
 𒀸ꦼꦴ⇢${prefix}𝐜𝐧𝐧
 𒀸ꦼꦴ⇢${prefix}𝐫𝐞𝐯𝐢𝐩 [ 8.8.8.8 ]
@@ -1097,8 +1091,8 @@ switch (command) {
 𒀸ꦼꦴ⇢${prefix}𝐰𝐚𝐦𝐞
 𒀸ꦼꦴ⇢${prefix}𝐜𝐚𝐬𝐬𝐢𝐧𝐨
 𒀸ꦼꦴ⇢${prefix}𝐟𝐚𝐤𝐞
-
-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 𝐒𝐨𝐥𝐨 𝐜𝐫𝐞𝐚𝐝𝐨𝐫
+---------------------
+𝑱𝑬𝑰𝑺𝑶𝑵 𝐒𝐨𝐥𝐨 𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 𒀸ꦼꦴ⇢${prefix}𝐬𝐞𝐥𝐟
 𒀸ꦼꦴ⇢${prefix}𝐩𝐮𝐛𝐥𝐢𝐜
 𒀸ꦼꦴ⇢${prefix}𝐝𝐞𝐥𝐞𝐭𝐞
@@ -1126,8 +1120,8 @@ switch (command) {
 𒀸ꦼꦴ⇢${prefix}𝐮𝐧𝐫𝐞𝐚𝐝𝐚𝐥𝐥
 𒀸ꦼꦴ⇢${prefix}𝐜𝐡𝐚𝐭
 𒀸ꦼꦴ⇢${prefix}𝐚𝐩𝐚𝐠𝐚𝐫
- 
-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 𝐈𝐧𝐟𝐨 𝐝𝐞𝐥 𝐛𝐨𝐭
+ - - - - - - - - - - - - - - 
+𝑱𝑬𝑰𝑺𝑶𝑵 𝐈𝐧𝐟𝐨 𝐝𝐞𝐥 𝐛𝐨𝐭
 𒀸ꦼꦴ⇢𝐇𝐢𝐭𝐬 𝐝𝐞 𝐡𝐨𝐲 : ${hit_today.length}*
 𒀸ꦼꦴ⇢𝐂𝐞𝐥𝐮𝐥𝐚𝐫 : ${device_manufacturer}
 𒀸ꦼꦴ⇢𝐌𝐨𝐝𝐞𝐥𝐨 : ${device_model}
@@ -1142,9 +1136,9 @@ switch (command) {
 𒀸ꦼꦴ⇢𝐏𝐫𝐞𝐟𝐢𝐱 : 「 ${prefix} 」
   ╔══••ೋೋ••══╗
    BY:
-          ☞-𝘼𝙓𝙀𝙇 𝘼𝘾™✓
+          ☞-𝑱𝑬𝑰𝑺𝑶𝑵
 
-   ╚═[𝘼𝙓𝙀𝙇 𝘼𝘾™✓]═╝
+   ╚═[𝑱𝑬𝑰𝑺𝑶𝑵]═╝
 `
         	faketokoforwaded(menu)
            	break
